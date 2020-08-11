@@ -126,6 +126,28 @@ background-image: url(https://cdn.wallpapersafari.com/62/30/pRI64F.jpg);
         }
 /* end of modal universe  */
 
+/* modal science */
+#scienceModal {
+        background-image: url(https://cdn.wallpapersafari.com/52/52/L0TUJK.jpg);
+        }
+        
+        #modal-7 {
+                background: linear-gradient(rgb(10, 55, 204), rgb(251, 251, 251), rgb(101, 114, 187));
+                /* opacity: .5; */
+        }
+/* end of modal science  */
+
+/* modal peace */
+#peaceModal {
+        background-image: url(https://images.hdqwalls.com/download/japan-sunset-purple-evening-4k-5m-1920x1200.jpg);
+        }
+        
+        #modal-8 {
+                background: linear-gradient(rgb(51, 113, 155), rgb(184, 93, 153), rgb(253, 160, 73));
+                /* opacity: .5; */
+        }
+/* end of modal peace  */
+
 /* grid  */
 .grid-container {
         display: grid;
