@@ -22,6 +22,83 @@
     <title>Aquarius</title>
 </head>
 
+<script>
+    function aquariusQuote() {
+
+        var quotes = new Array(20);
+        var sources = new Array(20);
+
+
+        quotes[0] = " ";
+        sources[0] = " ";
+
+        quotes[1] = " ";
+        sources[1] = " ";
+
+        quotes[2] = " ";
+        sources[2] = " ";
+
+        quotes[3] = " ";
+        sources[3] = " ";
+
+        quotes[4] = " ";
+        sources[4] = " ";
+
+        quotes[5] = " ";
+        sources[5] = " ";
+
+        quotes[6] = " ";
+        sources[6] = " ";
+
+        quotes[7] = " ";
+        sources[7] = " ";
+
+        quotes[8] = " ";
+        sources[8] = " ";
+
+        quotes[9] = " ";
+        sources[9] = " ";
+
+        quotes[10] = " ";
+        sources[10] = " ";
+
+        quotes[11] = " ";
+        sources[11] = " ";
+
+        quotes[12] = " ";
+        sources[12] = " ";
+
+        quotes[13] = " ";
+        sources[13] = " ";
+
+        quotes[14] = " ";
+        sources[14] = " ";
+
+        quotes[15] = " ";
+        sources[15] = " ";
+
+        quotes[16] = " ";
+        sources[16] = " ";
+
+        quotes[17] = " ";
+        sources[17] = " ";
+
+        quotes[18] = " ";
+        sources[18] = " ";
+
+        quotes[19] = " ";
+        sources[19] = " ";
+
+        i = Math.floor(Math.random() * quotes.length);
+
+
+        document.write("<p style='text-align: center'>\"");
+        document.write(quotes[i] + "\"");
+        document.write("<em> " + sources[i] + "</em>");
+        document.write("</p>");
+    }
+</script>
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -61,6 +138,11 @@
     </nav>
     <!-- End of nav-bar  -->
     <h1>aquarius</h1>
+    <p>
+        <script type="text/javascript">
+            aquariusQuote();
+        </script>
+    </p>
 </body>
 
 </html>
