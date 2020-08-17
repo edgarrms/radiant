@@ -2,3 +2,12 @@ body {
     background: url("https://wallpaperaccess.com/full/448629.jpg");
     background-size: cover;
 }
+
+#jumbotron {
+    opacity: 0.6;
+}
+
+.container {
+    opacity: 5;
+    color: black;
+}
